@@ -90,7 +90,7 @@ h2.titolifoto {
 #contenitorefoto {
     background-color: white;
     margin: 2em;
-    padding: 1.5em;
+    
 }
 
 #contenitorefoto2 {
@@ -122,11 +122,13 @@ h2.titolifoto {
     background-color: #222F3F;
     
 }
-
+div.scrittacontenitorefoto {
+    padding: 1em 0 0 2.5em;
+}
 .contenitorefotointerno {
     text-align: center;
     margin: auto;
-    padding: 2em 0;
+    padding:  0;
     background-color: white;
 }
 .fotointerna {
@@ -137,7 +139,6 @@ h2.titolifoto {
     border-radius: 10px;
     height: 25vw;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
-    vertical-align: top;
     margin: 1%;
 }
 
