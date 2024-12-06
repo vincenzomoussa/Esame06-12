@@ -12,7 +12,7 @@ body {
     width: 10%;
 }
 
-#secondalinea p{
+#secondalinea li{
     display: inline-block;
     padding: 0.5em;
 }
@@ -24,7 +24,6 @@ body {
     font-size: 110%;
 }
 
-
 a {
     text-decoration: none;
     color: white;
@@ -35,7 +34,7 @@ a {
     margin: 2em;
     color: #FFE7D1;
     text-align: center;
-    padding: 0.5em;
+    padding: 1em;
     font-size: 110%;
 }
 
@@ -43,22 +42,34 @@ a {
     background-image: url(../img/bg-image.png);
     margin: 2em;
     text-align: center;
-    padding: 3em;
+    padding: 4em;
+    background-size: contain;
+
+   
     
 }
 
-#quartalinea #Holiday {
+#Holiday {
     color: white;
-    font-size: 200%;
+    font-size: 250%;
     font-weight: bold;
     
 }
 
-#quartalinea #Holiday2 {
+#Holiday2 {
     color: white;
     font-weight: bold;
     padding: 2em 0 1em 0;
-    font-size: 110%;
+    font-size: 150%;
+    
+}
+
+
+div.foto {
+    display: inline-block;
+    border-radius: 10%;
+    width: 25%;
+   
     
 }
 
@@ -79,7 +90,7 @@ h2.titolifoto {
 #contenitorefoto {
     background-color: white;
     margin: 2em;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 #contenitorefoto2 {
@@ -110,4 +121,38 @@ h2.titolifoto {
     padding: 4em;
     background-color: #222F3F;
     
+}
+
+.contenitorefotointerno {
+    text-align: center;
+    margin: auto;
+    padding: 2em 0;
+    background-color: white;
+}
+.fotointerna {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 22%;
+    border-radius: 10px;
+    height: 25vw;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    vertical-align: top;
+}
+
+#n1 {
+    background-image: url(../img/img_1.jpg);
+}
+
+#n2 {
+    background-image: url(../img/img_2.jpg);
+}
+
+#n3 {
+    background-image: url(../img/img_3.jpg);
+}
+
+#n4 {
+    background-image: url(../img/img_4.jpg);
 }
